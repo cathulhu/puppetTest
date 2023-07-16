@@ -34,4 +34,8 @@ node default {
     content => 'world!',
   }
 
+  package { 'python3': 
+    ensure => installed,
+  }
+
 }
